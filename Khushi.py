@@ -329,6 +329,7 @@ LOVE_REASONS = [
 LOVE_LETTER = f"""
 Dear {GF_NAME},  
 
+First go down and play the song that I have dedicated to you, and listen to that while reading this letter.
 
 I am a soft hearted person with a huge dreams. I have had crushes in my life before until,
 I saw you that evening during COVID. You with that amazing smile and that amzing outfit coming out of your house.
@@ -347,7 +348,7 @@ I have decidated a song for you. It is not written by me, but it expresses my fe
 
 I LOVE YOU SO SO SO SO MUCH.
 
-With all of my heart, I have a song dedicated to you.
+With all of my heart.
 {YOUR_NAME} 🌹
 """
 
