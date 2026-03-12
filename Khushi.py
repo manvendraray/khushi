@@ -313,16 +313,17 @@ TIMELINE = [
 
 # Reasons you love her
 LOVE_REASONS = [
-    "The way your eyes soften when you’re really listening.",
-    "How your voice changes a little when you’re excited about something.",
-    "That you remember tiny details I didn’t even realize I told you.",
-    "How the world feels less loud and less sharp when I’m with you.",
-    "Your kindness to people who will never know how kind you are.",
-    "The way you laugh, and the way I can hear your smile through the phone.",
-    "How you somehow make me feel both calm and electrified at the same time.",
-    "The random little ‘I’m thinking of you’ moments that you probably don’t realize mean everything.",
-    "How even on my worst days, the thought of you feels like a light in my chest.",
-    "That you’re you. Just you. And somehow, unbelievably, you’re here with me.",
+    "You are extremely well-spoken, well-mannered, and incredibly smart.",
+    "You treat everyone with respect and kindness, and someone like you deserves even more kindness in return.",
+    "You listen to your heart, and that honesty makes you beautiful from the inside.",
+    "You are the prettiest girls God has ever created.",
+    "You have an amazing dressing sense that always makes you look elegant.",
+    "Your beautiful, thick hair that I absolutely adore.",
+    "Your humbleness, especially in the way you treat me.",
+    "The way you share everything with me and make me feel trusted.",
+    "How you forgive me when I make small mistakes.",
+    "You are genuinely funny.....I love your jokes and the way you make me laugh.",
+    "That you’re you. Just you. And somehow, unbelievably, you’re here with me."
 ]
 
 # Love letter
@@ -501,7 +502,7 @@ def page_story():
 def page_reasons():
     st.markdown('<div class="glass-card">', unsafe_allow_html=True)
     st.markdown('<div class="section-label">CHAPTER III</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-title">Some of the reasons why I love you Khushi Baby</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">Some of the reasons why I love you babe</div>', unsafe_allow_html=True)
     st.markdown(
         '<p class="main-text">If I tried to list every reason I love you, this page would never end. But here are a few:</p>',
         unsafe_allow_html=True,
