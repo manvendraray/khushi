@@ -357,7 +357,7 @@ With all of my heart.
 DATE_IDEA = """
 Here’s what I’m dreaming about for us in Mumbai:
 
-• A night that belongs only to us — no rush, no alarms, no ‘what time is it?’  
+• A night that belongs only to us......no rush, no alarms, no ‘what time is it?’  
 • Your favorite food (lot of chatpata food)  
 • A playlist I made just for you, playing softly in the background and watch a movie together and do mast-mast shopping in Colaba and Marine Drive.
 • A walk, a view, a quiet corner where we can just exist next to each other  
@@ -445,7 +445,7 @@ def page_welcome():
         st.markdown(
             f"""
 <p class="main-text">
-Somewhere between the late replies, the random conversations, the teasing, the comfort,  
+Somewhere between the random conversations, the teasing, the comfort,  
 and the way your name started to feel like a safe place in my head,  
 we quietly built a little universe that exists only between you and me.  
 
