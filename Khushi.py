@@ -292,35 +292,22 @@ st.markdown(ROMANTIC_NIGHT_CSS, unsafe_allow_html=True)
 # DATA TO CUSTOMIZE 💌
 # =========================
 
-GF_NAME = "Her Name"       # <-- put her real name
-NICKNAME = "my universe"   # <-- your nickname for her
-YOUR_NAME = "Your Name"    # <-- your name / nickname she uses
-SECRET_ANSWER = "crocs"   # <-- answer to unlock letter (lowercase)
+GF_NAME = "Khushi"       # <-- put her real name
+NICKNAME = "Dove "   # <-- your nickname for her
+YOUR_NAME = "Ray"    # <-- your name / nickname she uses
+SECRET_ANSWER = "dove"   # <-- answer to unlock letter (lowercase)
 
 # Timeline memories
 TIMELINE = [
     {
         "label": "The first spark",
-        "title": "The first time I really saw you",
-        "text": "I don’t know if you noticed, but something in my world quietly tilted that day. "
-                "I remember what you were wearing, the way your voice sounded, and how my brain went a little quiet when you laughed.",
-    },
-    {
-        "label": "Our beginning",
-        "title": "The day we became an 'us'",
-        "text": "Somewhere between the shared jokes, the late replies, the teasing, and the ‘okay, so what are we?’, "
-                "we slipped into something that felt so natural and so, so right.",
-    },
-    {
-        "label": "That one moment",
-        "title": "When I knew it wasn’t just a crush anymore",
-        "text": "It wasn’t dramatic. It was a small moment—maybe the way you looked at me, or how you said my name. "
-                "I just remember thinking, ‘Oh. It’s you. It’s been you for a while, hasn’t it?’",
+        "title": "When you came out of home during COVID and waved at me, OMG.",
+        "text": "I remember how pretty you were looking, the way your HELLO sounded, and how my brain went a little quiet when you smiled.",
     },
     {
         "label": "Right now",
         "title": "You, here, reading this",
-        "text": "And now you’re on this page I made just for you, and my chest feels full just knowing you’re here.",
+        "text": "And now you’re on this page I made just for you, and my chest feels full just knowing you’re here and you are just MINE.",
     },
 ]
 
@@ -342,46 +329,38 @@ LOVE_REASONS = [
 LOVE_LETTER = f"""
 Dear {GF_NAME},  
 
-I don’t think there’s a right way to say everything I feel for you,  
-but I still wanted to try. So I made this little world on a screen,  
-because my heart needed more space than a single message.  
 
-You have become my favorite part of every day —  
-the thought I wake up to, the softness in the middle of chaos,  
-the person I picture when I think about tomorrow.  
+I am a soft hearted person with a huge dreams. I have had crushes in my life before until,
+I saw you that evening during COVID. You with that amazing smile and that amzing outfit coming out of your house.
+Th first time my heart started to beat for you was that day. I loved all the times spent with you. Every single day, I used to think of you.
+You were so kind to me, you respceted me a lot, you have such an amazing heart sweetheart, and I am thankful to God and your mom and dad to give birth to such a precious human being.
+Even after I proposed you and we were not in relationship, I never had hatred for you, just a little jealously that why do I don't have such an amazing person as my partner. 
+Thank you so much sweetheart you shared yourr feelings with me on 3rd Septemeber. I love you and I swear to myself, I will love you till my last breathe. 
+Let's forget what has happened in the past, in our individual lives, and keep making new chapters in our love story. I want to be the reason behind your smile, 
+the one who holds your hand through every up and down, and the person you can always count on.
+I will always support you sweeetheart, in your dreams, in your goals, and in your happiness. I want to be the one who stands by you through every challenge.
+You can put your head on your chest and sleep peacefully, knowing that I will always be there to protect you, to love you, and to cherish you.
+I LOVE YOU SO MUCH MY DOVE. I am so grateful to have you in my life, and I promise to do everything I can to make you happy and to show you how much you mean to me.
 
-I love the loud things about you — your laugh, your jokes, your energy —  
-but I also love the quiet things:  
-the way you think, the way you care,  
-the way you exist in a room and somehow make it feel warmer.  
 
-Sometimes I catch myself smiling at nothing,  
-and then I realize I was just thinking about you.  
+I have decidated a song for you. It is not written by me, but it expresses my feelings for you in a way that words sometimes can’t.
 
-Thank you for being gentle with me.  
-Thank you for trusting me with pieces of you.  
-Thank you for letting me love you in my clumsy, extra, over-the-top ways —  
-even like this, as a whole website just for you.  
+I LOVE YOU SO SO SO SO MUCH.
 
-I don’t know exactly what the future looks like yet,  
-but I know that every version I want has you in it.  
-
-With all of my heart,  
+With all of my heart, I have a song dedicated to you.
 {YOUR_NAME} 🌹
 """
 
 # Date / surprise plan
 DATE_IDEA = """
-**Here’s what I’m dreaming about for us:**  
+Here’s what I’m dreaming about for us in Mumbai:
 
 • A night that belongs only to us — no rush, no alarms, no ‘what time is it?’  
-• Your favorite food (or we explore somewhere new together, hand in hand)  
-• A playlist I made just for you, playing softly in the background  
-• A walk, or a view, or a quiet corner where we can just exist next to each other  
+• Your favorite food (lot of chatpata food)  
+• A playlist I made just for you, playing softly in the background and watch a movie together and do mast-mast shopping in Colaba and Marine Drive.
+• A walk, a view, a quiet corner where we can just exist next to each other  
 
-No big performance.  
-Just you. Just me.  
-And the kind of softness I never want to lose.  
+I love you 
 """
 
 # =========================
@@ -551,7 +530,7 @@ def page_letter():
         """
 <p class="main-text">
 There’s a letter here that’s a little more private.  
-To open it, type a tiny word or phrase that feels like it’s <b>ours</b>.
+To open it, type the nickname I gave you..
 </p>
 """,
         unsafe_allow_html=True,
@@ -569,7 +548,7 @@ To open it, type a tiny word or phrase that feels like it’s <b>ours</b>.
 
     if st.session_state.letter_unlocked:
         st.markdown(f'<div class="love-letter">{LOVE_LETTER}</div>', unsafe_allow_html=True)
-        st.audio("Camel ri sawari.wav")
+        st.audio("Everglow.mp3")
     else:
         st.markdown(f'<div class="love-letter locked">{LOVE_LETTER}</div>', unsafe_allow_html=True)
         st.markdown(
@@ -598,7 +577,7 @@ def page_surprise():
     if st.button("Yes. Obviously. 🌙"):
         st.balloons()
         st.snow()
-        st.success("You just made my whole week. Maybe my whole month.")
+        st.success("Can't wait to meet in May in Mumbai, my love! 🌹")
 
     st.markdown(
         '<div class="small-note">By pressing that button, you also agree to at least one unreasonably long hug.</div>',
