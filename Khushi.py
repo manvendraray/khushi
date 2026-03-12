@@ -553,10 +553,7 @@ To open it, type the nickname I gave you..
         st.audio("Everglow.mp3")
     else:
         st.markdown(f'<div class="love-letter locked">{LOVE_LETTER}</div>', unsafe_allow_html=True)
-        st.markdown(
-            '<div class="small-note">[for testing: you can change the expected answer in the code under <code>SECRET_ANSWER</code>]</div>',
-            unsafe_allow_html=True,
-        )
+        
 
     st.markdown('</div>', unsafe_allow_html=True)
 
