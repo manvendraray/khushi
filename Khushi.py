@@ -385,7 +385,7 @@ st.markdown(
         a small universe of words and pixels, coded at ridiculous hours,  
         just to say one simple thing: <span class="glow-heart">♥</span> i love you
     </div>
-    <div class="hero-from">FROM: {"Hello" }</div>
+    <div class="hero-from">FROM: {"Ray Manvendra" }</div>
 </div>
 """,
     unsafe_allow_html=True,
